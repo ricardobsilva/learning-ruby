@@ -36,7 +36,7 @@ cp .env.example .env
 Crie uma cópia do arquivo `config/database.yml.example` com o nome de `config/database.yml` e configure de acordo com o seu banco de dados (username, password, etc.):
 
 ```console
-cp config/databse.yml.example config/database.yml
+cp config/database.yml.example config/database.yml
 ```
 
 Agora você poderá executar o comando abaixo que criará o banco de dados localmente, bem como as tabelas e dados previamente definidos para desenvolvimento:
