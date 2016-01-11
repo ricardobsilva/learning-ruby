@@ -3,5 +3,5 @@ class State < ActiveRecord::Base
 
   belongs_to :address
   has_many :cities
-  has_one :capital, -> { where(capital: true) }, class_name: "City"
+  has_one :capital, -> { where(capital: true) }, class_name: 'City'
 end
