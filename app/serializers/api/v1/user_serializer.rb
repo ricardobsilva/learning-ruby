@@ -1,3 +1,4 @@
 class Api::V1::UserSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id , :email
+  has_one :address
 end
