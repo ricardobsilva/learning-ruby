@@ -41,6 +41,9 @@ gem 'swagger-docs', '~> 0.1.9'
 gem 'better_errors', '~> 2.1.1'
 gem 'binding_of_caller', '~> 0.7.2'
 
+#api
+gem 'active_model_serializers', '~> 0.9.3'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-font-awesome', '~> 4.5.0'
   gem 'rails-assets-bootstrap-sass', '~> 3.3.6'
